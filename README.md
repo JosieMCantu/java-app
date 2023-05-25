@@ -2,7 +2,8 @@ Java Agent Example
 =====================
 
 ### Setup
-You will need JDK8 or newer installed locally to run this.
+This is a Spring Boot Java application which uses thymeleaf to serve html files. You will need 
+JDK8 and Gradle 8 or newer installed locally to run this. 
 
 It also assumes you want to verify on Staging.  If that is not true, check
 `build.gradle` for instructions on how to point at production.

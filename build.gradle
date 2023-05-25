@@ -12,9 +12,10 @@ repositories {
 }
 
 dependencies {
-	//implementation files(System.getenv("NEW_RELIC_API"))
+	implementation files(System.getenv("NEW_RELIC_API"))
 	implementation 'javax.servlet:jstl'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
