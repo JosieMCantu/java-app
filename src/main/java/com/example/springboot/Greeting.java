@@ -1,16 +1,20 @@
 package com.example.springboot;
 
-public class Greeting {
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
-    private long id;
+@Entity
+public class Greeting {
+    @Id
+    private Long id;
     private String content;
 
-    public long getId() {
-        return id;
+    public void setId(Long id) {
+        this.id = id;
     }
 
-    public void setId(long id) {
-        this.id = id;
+    public Long getId() {
+        return id;
     }
 
     public String getContent() {
