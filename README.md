@@ -38,7 +38,6 @@ Then run the Spring Boot app:
 9. Create a table `create table GREETING (ID INT PRIMARY KEY, NAME VARCHAR(25));`
 10. Create a row for proof of concept `INSERT INTO GREETING (ID, NAME) VALUES (1, 'Honey');`
 11. It worked! `SELECT * FROM GREETING;`
+![Example Table](Screenshot.png)
 12. fyi: To stop the mysql instance `mysql.server stop`
-
-
 Now when you go to http://localhost:8080/greeting you can enter information, check it in the database and on staging.
