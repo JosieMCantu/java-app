@@ -40,4 +40,5 @@ Then run the Spring Boot app:
 11. It worked! `SELECT * FROM GREETING;`
 ![Example Table](Screenshot.png)
 12. fyi: To stop the mysql instance `mysql.server stop`
+
 Now when you go to http://localhost:8080/greeting you can enter information, check it in the database and on staging.
